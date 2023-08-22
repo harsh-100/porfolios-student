@@ -14,7 +14,7 @@
 
   function myFunction(){
     const randomIndex=Math.floor(Math.random()*colors.length);
-    document.getElementById("head").style.backgroundColor = colors[randomIndex];
+    document.getElementById("head").style.backgroundColor = colors[randomIndex]; 
 }
 
 
