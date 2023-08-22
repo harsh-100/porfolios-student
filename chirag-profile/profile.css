@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Preahvihear' , 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+body{
+    background-color: rgb(0, 0, 128);
+}
+main {
+    background: url('/abstract-mixed-pastel-colors-background-free-vector.jpg') ;
+    background-size: cover;
+    display: block;
+    border: 1rem violet;
+    border-style: groove;
+    border-radius: 80px;
+    margin:2rem auto 2rem auto ; 
+    min-width: 280px;
+    max-width: 768px;
+    padding: 5px;
+    text-align: center;
+  }
+
+h2{
+    color: aquamarine;
+    /* border: 1px navy solid; */
+    text-shadow: 5px 5px darkblue ;
+    text-align: center;
+    font-size: 3rem;
+    
+  }
+h3{
+    color: lime;
+    text-shadow: 3px 3px darkgreen ;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+p{
+    color: bisque;
+    font-size: 1.5rem;
+}
+h1{
+    color: aqua;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 0 0 10px #FF0000, 0 0 15px #0000FF;
+    font-size: 4rem;
+}
+ul{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+/* #colorbutton{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+} */
+/* #colorbutton:hover{
+    cursor: pointer;
+    box-shadow: 0 0 250px mediumspringgreen;
+} */
+
+.image:hover{
+    cursor: pointer;
+    /* color: #111; */
+    background: greenyellow;
+    box-shadow: 0 0px 80px 10px greenyellow;
+}
+
+.credentials{
+    color: lavenderblush;
+    font-size: x-large;
+}
+
+.columns{
+display: flex;
+gap: 2rem;
+justify-content: space-evenly;
+flex-wrap: wrap;  
+}
+
+
+/* visit button */
+#visit{
+    display: inline-block;
+    padding: 1px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #15fdf9;
+    border: none;
+    border-radius: 15px;
+    /* box-shadow: 0 9px #0f16a4; */
+}
+#visit:hover{
+    box-shadow: 0 0 10px 5px rgb(3, 20, 95), 0 0 10px 7px rgb(255, 0, 255);
+    transition: 0.5s;
+}
+#visit:active{
+    background-color: #0f16a4;
+    /* box-shadow: 0 5px #fbff12; */
+    transform: translateY(4px);
+}
+/* skill logos */
+.logo{
+    border: 2px solid darkblue;
+    /* padding: 20%; */
+    box-sizing: border-box;
+    border-radius: 20%;
+    height: 6rem;
+    width: 6rem;
+    box-shadow:0 0 15px gold ;
+}
+  /* skill logos hover */
+.logo:hover{
+    /* zoom: 150%; */
+    transition: 0.5s;
+    transition: ease-in-out;
+
+}
