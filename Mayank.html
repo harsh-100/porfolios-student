@@ -3,9 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="mayank.css" />
+    <title>MY Profie</title>
   </head>
   <body>
-    <h1>Trial</h1>
+    <h1 class="heading" style="font-style: italic; padding-left: 520px">
+      <u> *Welcome to my profile* </u>
+    </h1>
+    <div style="margin-left: 500px">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGLljf7V2-ZG3xmWd-NPvzJE7kXMRYQoV5EA&usqp=CAU"
+        alt="image"
+        class="myimage"
+        title="coder"
+        height="250p"
+        width="350px"
+      />
+    </div>
+    <h1 class="heading" style="font-size: 50px"><u>HI I'M MAYANK </u></h1>
+    <p style="color: rgb(209, 196, 181)">
+      A front end <b style="color: rgb(224, 224, 235)">Web Developer</b> and
+      <b style="color: rgb(222, 222, 231)">C++ Programmer</b>.
+    </p>
+    <h2 class="heading"><u>About Me</u></h2>
+    <p style="color: rgb(241, 236, 236); font-size: 20px">
+      I am Pursuing <b>B.tech</b> in Computer Science and Engineering at
+      Poornima Institute of Engineering and Technoogy .
+    </p>
+    <h2 class="heading"><u>Contact :-</u></h2>
+    <p style="color: rgb(241, 234, 234)">
+      E-MAIL :-
+      <a href="https://mail.google.com/" style="color: rgb(129, 196, 233)">
+        aroramayank717@gmail.com </a
+      ><br />PHONE NO. :- 1234567890
+    </p>
+
+    <img src="images.png" height="40px" class="icon" width="50px" />
+    <img src="image2.png" height="40px" class="icon2" width="50px" />
+    <h2 class="heading"><u>WEBSITE</u></h2>
+    <a href="https://www.youtube.com/" style="color: rgb(177, 228, 126)"
+      >Youtube</a
+    ><b><hr /></b>
+    <h2 class="heading" style="font-style: oblique">
+      <u>To Connect with me - </u>
+    </h2>
   </body>
+  <div2>
+    <form>
+      <label for="fname" style="color: aqua">First name:</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="enter your first name "
+      /><br />
+      <label for="lname" style="color: aqua">Last name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="enter your last name "
+      />
+    </form>
+    <br />
+
+    <button style="color: white; background-color: black" class="button">
+      Submit
+    </button>
+    <button style="color: white; background-color: black">Reset</button>
+    <footer
+      style="
+        background-color: rgb(5, 5, 5);
+        color: white;
+        padding: 30px;
+        margin-top: 200px;
+        text-align: center;
+      "
+    >
+      &#169; COPYRIGHT2023 MY PROFILE PAGE
+    </footer>
+    <button>change header color</button>
+    <script>
+      const colorButton = document.getelementbyid("colorButton");
+      const header = document.queryselector("header");
+
+      const colors = ["#336699", "#FF5733", "#33CC99", "#FF33CC"];
+
+      function changeheadercolor() {
+        const randomIndex = math.floor(math.random() * colors.length);
+        header.style.backgroundcolor = colors[randomIndex];
+      }
+    </script>
+  </div2>
 </html>
