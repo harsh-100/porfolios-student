@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #000000;
+    color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78px;
+    background-color: rgb(17, 17, 17);
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    /*first number is for top&bottom and second is for left&right*/
+}
+
+nav ul li a {
+    /*to fix the blue default color*/
+    color: #f4f4f4;
+    text-decoration: none;
+    /*to remove the default underline*/
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+a:active {
+    color: blueviolet;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    /*to set the contents horizontally as they are vertical by default*/
+    justify-content: space-around;
+    /*to separate and put them on far from eachother*/
+    margin: 23px 0;
+}
+
+.firstSection>div {
+    /*by using > only the 1st div of this class gets 30% and not the div inside this div*/
+    width: 30%;
+
+}
+
+.leftSection {
+    font-size: 3rem;
+    margin: 130px 0;
+    ;
+}
+
+.social{
+    transition: all .2s ease-in-out;
+}
+.social:hover{
+    transform: scale(1.1);  /*To grow on hover*/
+cursor: pointer;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element{                              /*calling css id*/
+     color: blueviolet;
+}
+
+.secondSection{
+    max-width: 80vw; /*To define the width of the section*/
+    /* background-color: red; */
+    margin: auto;
+}
+.logodiv{
+    display: flex;
+    /* border: solid 2px white; */
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    align-items: center;
+    /* background-color: rgba(179, 97, 255, 0.486); */
+}
+
+.logo{
+    
+    /* height: 1.5vh; */
+    width: 1.5vw;
+    margin: 0px 7px;
+}
+ nav a.active{
+    color: blueviolet;
+}
+
+.btn{
+    background-color: blueviolet;
+    margin-top: 7vh;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1); 
+}
+#gitHub{
+    margin-top: -1vh;
+}
