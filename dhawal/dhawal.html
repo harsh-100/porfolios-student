@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>DHAWAL'S PROFILE</title>
+    <style>
+        .header-button {
+            width: 100%;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+            font-size: 24px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            border: none;
+            outline: none;
+        }
+
+        .header-button:hover {
+            background-color: orange;
+        }
+        .b-g{
+    background-color: hotpink ;
+    margin: 0px; 
+}
+.h-1{
+    color: black;
+    text-align: center;
+
+margin: 0%;margin-top: 0%;
+
+}
+.i-1
+{
+position: relative;
+    height: 200 px;
+    width: 200px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    display: block;
+     margin-left: auto;
+    margin-right: auto; 
+    border-radius: 50% ;
+    animation: slide 5s linear infinite;
+    transform: scale(1.1);
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0) scale(1);
+        
+    }
+    50%
+    {
+        
+        transform: translateX(100%) scale(1.1);
+    }
+    100% {
+        transform: translateX(100%) scale(1);
+        
+    }
+}
+
+.h-2
+{
+    
+    text-align: center;
+    color:white;
+    
+}
+.h-4{
+   margin-left: 60%; 
+}
+.s-1
+{
+    color:yellow;
+}
+.h-3{
+    color: chartreuse;
+}
+.c-i{
+    color: springgreen;
+}
+.header{
+    background-color: aqua;
+}
+
+   
+    </style>
+</head>
+
+<body class="b-g" id="background">
+
+    <button class="header-button" id="header">
+        <h2 class="h-1"><u>WELCOME TO MY PROFILE!!</u></h2>
+    </button>
+
+    <img class="i-1" src="ds1.jpeg" alt="no">
+    <h2 class="h-2"><i>DHAWAL SAINI</i></h2>
+    <h4 class="h-4"><strong>-FRONT END DEVELOPER</strong></h4>
+    <u>
+        <h2 class="h-3">ABOUT ME-</h2>
+    </u>
+    <span>Hi, I'm Dhawal! I am a passionate front-end developer with a strong interest in creative interactive and
+        user-friendly websites. I love experimenting with new technologies and turning ideas into beautiful and
+        functional web applications.</span>
+    <u>
+        <h2 class="c-i">CONTACT INFORMATION-</h2>
+    </u>
+    <span class="s-1"><u>EMAIL:</u> sainidhawal@google.com <br>
+        <u>PHONE NO.-</u>+91 6778877889
+        <br>
+        WEBSITES: www.dhawal.com</span>
+    <ul>
+        <label for="skills"><u>*SKILLS*</u></label>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <LI>BOOTSTRAP</LI>
+        <LI>REACTJS </LI>
+    </ul>
+    <footer style="text-align: center; background-color: black;color: white;">&copy;DHAWAL SAINI All Rights Reserved</footer>
+
+    <script>
+        var headerButton = document.getElementById("header");
+        var colors = ["red", "blue", "green", "purple", "orange"];
+
+        headerButton.addEventListener("click", function () {
+            var randomIndex = Math.floor(Math.random() * colors.length);
+            headerButton.style.backgroundColor = colors[randomIndex];
+        });
+        var backgroundbutton = document.getElementById("background");
+        var colors = ["red", "blue", "green", "purple", "orange"];
+
+        backgroundbutton.addEventListener("click", function () {
+            var randomIndex = Math.floor(Math.random() * colors.length);
+            backgroundbutton.style.backgroundColor = colors[randomIndex];
+        });
+        
+    </script>
+
+</body>
+
+</html>
+
