@@ -1,0 +1,115 @@
+.myimage {
+  background-image: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGLljf7V2-ZG3xmWd-NPvzJE7kXMRYQoV5EA&usqp=CAU";
+  border-radius: 50%;
+  border: 4px solid rgb(102, 89, 219);
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  box-shadow: 0px 0px 30px hsl(0, 0%, 0%);
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(90%);
+  }
+}
+.myimage:hover {
+  cursor: pointer;
+  border-radius: 5%;
+  border-color: yellow;
+}
+.heading {
+  color: rgb(182, 252, 18);
+  font-style: inherit;
+  /* height: 120px;
+          width: 120px;
+          margin-left: 60%;
+          
+          background-color: rgb(31, 2, 136);
+          animation-name: example4;
+          animation-duration: 5s;
+          border-radius: 50%;
+          transition: ease-out;
+          animation-iteration-count: infinite;
+      
+       */
+}
+body {
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/08/abstract-simple-background_1596927932.jpg");
+  background-repeat: no-repeat;
+  height: 195vh;
+  background-position: center;
+  background-size: cover;
+}
+button:hover {
+  cursor: pointer;
+  border-radius: 5%;
+  border-color: yellow;
+}
+.div2 {
+  background-color: black;
+}
+.div4 {
+  height: 120px;
+  width: 120px;
+  margin-left: 60%;
+
+  background-color: rgb(31, 2, 136);
+  animation-name: example4;
+  animation-duration: 5s;
+  border-radius: 50%;
+  transition: ease-out;
+  animation-iteration-count: infinite;
+}
+.icon:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  border-color: yellow;
+  border: solid 1px rgb(230, 230, 75);
+}
+.icon2:hover {
+  cursor: pointer;
+  border-color: yellow;
+  border-radius: 30px;
+  border: solid 1px rgb(230, 230, 75);
+}
+/* .image{
+      height: 20px;
+              width: 20px;
+              margin-left: 60%;
+              
+              background-color: rgb(31, 2, 136);
+              animation-name: example4 ;
+              animation-duration: 5s;
+              border-radius: 10%;
+              transition: ease-out;
+              animation-iteration-count: infinite;
+  }
+  @keyframes example4 {
+  
+      0%,
+      100% {
+          background-color: yellow;
+          box-shadow: 0px 0px 10px yellow;
+          transform: scale(1);
+          
+      }
+  
+  
+      50% {
+          background-color: blue;
+          box-shadow: 0px 0px 10px blue;
+          transform: scale(3);
+      }
+  
+      70% {
+          background-color: red;
+          box-shadow: 0px 0px 10px red;
+      transform: scale(5);
+      }
+  
+  
+  } */
