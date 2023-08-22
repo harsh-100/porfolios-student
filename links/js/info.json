@@ -1,0 +1,41 @@
+{
+  "background": {
+    "video": "video/bg.mp4",
+    "image": "images/bgimg.jpeg"
+  },
+  "userdetails": {
+    "userimage": "images/photo.jpg",
+    "username": "Amanjain",
+    "userbio": "A coder, Techie, Eth Hacker!!!"
+  },
+  "links": {
+    "Instagram": {
+      "href": "https://instagram.com/iamanjain17?igshid=OTk0YzhjMDVlZA==",
+      "src": "images/icons/instagram.gif"
+    },
+    "Github": {
+      "href": "https://github.com/VAmanjain",
+      "src": "images/icons/github.gif"
+    },
+    "Linkedin": {
+      "href": "https://www.linkedin.com/in/aman-jain-416321256",
+      "src": "images/icons/linkedin.gif"
+    },
+    "SnapChat": {
+      "href": "https://www.snapchat.com/add/aman_jain21858?share_id=oGnxOhoAqAU&locale=en-IN",
+      "src": "images/icons/snap.gif"
+    },
+    
+    "Buy Me A Coffee": {
+      "href": "https://www.buymeacoffee.com/Amanjain",
+      "src": "images/icons/coff.gif"
+    },
+    "Contact Me": {
+      "href": "mailto:vaman.jain17@gmail.com",
+      "src": "images/icons/mail.gif"
+    }
+  },
+  "projects":{
+   
+  }
+}
