@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="profile.css">
+    <title>My Profile</title>
+</head>
+<body class="randomBackground" id="randomBackground">
+
+    <main>
+    <h1>welcome to my profile</h1>
+    <div> 
+        <img src="/IMG-20221109-WA0013-removebg-preview (1).png" alt="my profile pic" onclick="changeBackground()" class="image" style="display: inline-block; border: 2px violet solid; height: 100px; width: 100px; border-radius: 50%; zoom: 125%; object-fit: cover; padding-bottom: 0px; margin-bottom: 0px ;">      
+    </div>
+        <h2>Chirag Jain</h2>
+        <p>Front-end Web Developer</p>
+        <h3>About me</h3>
+        <p>hello, I am Chirag Jain! I am a passionate Front-end Web Devloper with a strong interest in creating attractive and user friendly websites.I love turning my ideas into beautiful and fully functional websites using new technologies.I love staying updated with the latest web trends and technologies.</p>
+        <h3>Contact Information</h3>
+        <p>
+            <span class="credentials">
+                <img src="/gmail.png" alt="" style="display: inline; height: 20px; width: 20px;">Email &#x2192;
+            </span>
+            thecj@example.com
+        </p>
+        <p>
+            <span class="credentials">
+                <img src="/download (3).png" alt="" style="display: inline; height: 20px; width: 20px; border-radius: 50%;">Contact &#x2192;
+            </span>
+            +91 9876543210
+        </p>
+        <p>
+            <span class="credentials">
+                My Website:
+            </span> 
+            <a href="profile.html" target="_blank">
+                 <button id="visit">visit</button>
+            </a>
+        </p>
+        <h3>Skills</h3>
+            <ul class="columns">
+                <li> 
+                    <a href="">
+                        <img src="/HTML.png" alt="HTML" class="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/198-1985012_transparent-css3-logo-png-css-logo-transparent-background.png" alt="CSS" class="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/download (4).png" alt="JAVASCRIPT" class="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/images (1).png" alt="BOOTSTRAP" class="logo">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="/download (4).jpeg" alt="REACT" class="logo">
+                    </a>
+                </li>
+            </ul>
+    </main>
+
+
+<script>
+    function changeBackground() {
+		const red = Math.floor(Math.random() * 256);
+		const green = Math.floor(Math.random() * 256);
+		const blue = Math.floor(Math.random() * 256);
+  
+	  	document.body.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+
+		}
+    function resetbg(){
+        document.body.style.background = rgb(0, 0, 128);
+    }
+</script>
+        
+
+
+    
+    
+</body>
+</html>
