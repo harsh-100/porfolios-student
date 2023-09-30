@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background-color: blue;
+    width: 100%;
+    /* margin-left: -120px; */
+    height: 73px;
+}
+.headtxt{
+    padding: 17px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tilt Prism', cursive;
+    color: azure;
+}
+.container{
+    box-shadow: 0px 0px 10px black;
+    margin-top: 60px;
+    height: 2500px;
+}
+.picprofile{
+    height: 240px;
+    width: auto;
+    padding: 0px 41%;
+    margin-top: 40px;
+    border-radius: 71%;
+}
+.intro{
+    margin-left: 415px;
+    margin-top: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+}
+.Content-head{
+    margin-top: 70px;
+    margin-left: 55px;
+    font-family: 'Dancing Script', cursive;
+}
+.Content{
+    margin-left: 120px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+.logo1{
+    width: 100px;
+    margin-left: 125px;
+}
+.logo2{
+    height: 110px;
+    margin-left: 115px;
+    margin-top: 35px;
+}
+.logo3{
+    height: 110px;
+    margin-left: 113px;
+    margin-top: 35px;
+}
+.logo4{    height: 130px;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.logo5{
+    height: 125px;
+    margin-left: 115px;
+    margin-top: 35px;
+}
+.stats{
+    height: 25px;
+            width: 60vw;
+            background-color: dimgray;
+            margin-left: 50px;
+            margin-top: 40px;
+            border-radius: 20px;
+}
+.sub-stats{
+    height: 25px;
+            width: 51vw;
+            background-color: rgb(115, 203, 228);
+            
+            border-radius: 20px;
+}
+.stats2{
+    height: 25px;
+            width: 60vw;
+            background-color: dimgray;
+            margin-left: 50px;
+            margin-top: 80px;
+            border-radius: 20px;
+}
+.sub-stats2{
+    height: 25px;
+            width: 54vw;
+            background-color:rgb(115,203,228) ;
+            
+            border-radius: 20px;
+}
+.stats3{
+    height: 25px;
+            width: 60vw;
+            background-color: dimgray;
+            margin-left: 50px;
+            margin-top: 80px;
+            border-radius: 20px;
+}
+.sub-stats3{
+    height: 25px;
+            width: 48vw;
+            background-color: rgb(115,203,228);
+            
+            border-radius: 20px;
+}
+.stats4{
+    height: 25px;
+            width: 60vw;
+            background-color: dimgray;
+            margin-left: -7px;
+            margin-top: 80px;
+            border-radius: 20px;
+}
+.sub-stats4{
+    height: 25px;
+            width: 27vw;
+            background-color: rgb(115,203,228); 
+            
+            border-radius: 20px;
+}
+.stats5{
+    height: 25px;
+            width: 60vw;
+            background-color: dimgray;
+            margin-left: 50px;
+            margin-top: 80px;
+            border-radius: 20px;
+}
+.sub-stats5{
+    height: 25px;
+            width: 33vw;
+            background-color: rgb(115,203,228);
+            
+            border-radius: 20px;
+}
+.insta{
+    width: 90px;
+    margin-left: 210px;
+    margin-top: 30px;
+}
+.linked{
+    width: 90px ;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.twitter{
+    width: 155px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.git{
+    width: 90px ;
+    margin-left: 10px;
+    margin-top: 26px;
+}
+.discord{
+    width: 90px ;
+    margin-left: 25px;
+    margin-top: 26px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    margin-left: 95px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+.contact-add{
+    flex-basis: 35%;
+}
+.contact-add2{
+    flex-basis: 60%;
+    
+}
+.contact-add2 form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background:#262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.footer{
+    background-color: blue;
+    height: 60px;
+}
+.foot-para{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    color: azure;
+    font-family: 'Tilt Prism', cursive;
+}
