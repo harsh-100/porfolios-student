@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fade{
+            width: 200px;
+            height: 200px;
+            color: blue;
+            animation-name: fadeIn;
+          transition: ease-out;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            border-radius: 50%;}
+             .profile-details {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 2px;
+    }
+    .profile-content {
+      flex: 1;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+      margin-right: 300px;
+      margin-left: 300px;
+   
+    }footer{
+            background-color:rgb(0,128,255 );
+            padding: 20px;text-align: center;
+           width: 100%;
+        }
+    .profile-image {
+      border-radius: 50%;
+        display: block;
+        width: 50%;
+       width: 200px;
+      height: 200px; 
+      opacity: 0;
+      animation: fade-in 2s ease-in-out forwards;
+    }
+        @keyframes fadeIn {
+          0%{ opacity: 0;
+          }
+          100%{ opacity: 1;}
+        } 
+        </style>
+</head>
+<body style="margin: 0%;"><div>
+    <header style="background-color:rgb(0, 128, 255);padding: 80px;text-align: center; font-size: xx-large;margin: 0px;">
+        <p ><b>Welcome To My Profile</b></p>
+        <button id="colorButton" on-click="changeHeaderColor()">Change Header Color</button>
+    </header><main>
+    <div class="profile-details">
+      
+        <div class="profile-content">
+    <img src="C:\Users\Nitin  bairwa\Downloads\WhatsApp Image 2023-06-08 at 11.32.52.jpg" class="fade">
+       <h2><b>Nitin Bairwa</b></h2>
+       <p>Web-Developer</p> 
+       <h2><b>About Me</b></h2>  
+       <p>Hi,I am Nitin.I'm passionate Web Web-Developer with a love for coding.With a Year of Experience.I've worked on a variety of projects,ranging from simple to complex.<br>Feel Free to Contact For Any Professional Work.</p>
+       <h2><b>Contact</b></h2>
+       <a href="nitinbairwa327@gmail.com">nitinbairwa327@gmail.com</a> <br>
+    <a href="7023368764">7023368764</a>   </main> <footer> 
+                &#169;copyright Nitin Bairwa</footer></div>
+                
+                <script>
+                  const colorButton=document.getElementById("colorButton");
+                  const header=document.querySelector("header");
+
+                  const color=["#336699","#FF5733","#33CC99","#FF33CC"];
+
+                  function changeHeaderColor() {
+                    console.log("it is here");
+                    const randomIndex = Math.floor(Math.random() * colors.length);
+                    header.style.backgroundColor=colors[randomIndex];
+
+                  }
+
+          
+                </script>
+        </body>
+        </html>
