@@ -1,0 +1,66 @@
+ .b-g{
+    background-color: hotpink ;
+    margin: 0px; 
+}
+.h-1{
+    color: black;
+    text-align: center;
+
+margin: 0%;margin-top: 0%;
+
+}
+.i-1
+{
+position: relative;
+    height: 200 px;
+    width: 200px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    display: block;
+     margin-left: auto;
+    margin-right: auto; 
+    border-radius: 50% ;
+    animation: slide 5s linear infinite;
+    transform: scale(1.1);
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0) scale(1);
+        
+    }
+    50%
+    {
+        
+        transform: translateX(100%) scale(1.1);
+    }
+    100% {
+        transform: translateX(100%) scale(1);
+        
+    }
+}
+
+.h-2
+{
+    
+    text-align: center;
+    color:white;
+    
+}
+.h-4{
+   margin-left: 60%; 
+}
+.s-1
+{
+    color:yellow;
+}
+.h-3{
+    color: chartreuse;
+}
+.c-i{
+    color: springgreen;
+}
+.header{
+    background-color: aqua;
+}
+
+   
