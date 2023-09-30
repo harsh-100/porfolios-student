@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my profile</title>
+
+    <style>
+        * {
+            margin-top: 0px;
+
+        }
+
+        header {
+            background-color: blue;
+            text-align: center;
+            
+            padding: 2%;
+
+        }
+
+        h2,
+        h3 {
+            color: blue;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 100%;
+           
+            background-color: blue;
+
+        
+
+            animation: grow 1s;
+            animation-iteration-count: infinite;
+
+
+            /* animation-delay: 1.4s; */
+
+        }
+
+        @keyframes grow {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            20% {
+                transform: scale(0.9);
+            }
+        }
+
+       
+    </style>
+
+</head>
+
+<body>
+
+    <header id="colorbutton">
+
+        <h1> Welcome To My Profile
+        </h1>
+<button>ColorChange</button>
+    </header>
+    <img src="harshita.jpg" alt="my photo"  width="200px" height="200px">
+
+    <h2>Harshita Shrimal</h2>
+    <p>Front End Web Developer</p>
+    <h3>About Me</h3>
+    <p>Hello I am Harshita. I am recently studied in PIET from CS branch. I have done my school in 2022. i have developed my skills in various programming language including HTML,Python and C.I am quick learner, and always looking to improve my skills and knowledge. 
+        My goals is to work for a company that values innovation , creativityand teamwork. </p>
+    <h3>Contact Information</h3>
+    <p>Email: shrimalharshita2004@gmail.com <br>
+        Phone: 9376864451 <br>
+        Website: <a href="http://www.google.com"> http://www.google.com
+        </a>
+
+    <h2> Skills</h2>
+    <ul Style="list-style-type:circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>C</li>
+    </ul>
+
+    <script>
+        
+        const colorbutton = document.getElementById("colorbutton");
+        const header = document.querySelector("header");
+
+        const colors = ["pink", "red", "black", "green"];
+        function changeHeaderColor() {
+            const randomIndex = Math.floor(Math.random() * colors.length);
+            header.style.backgroundColor = colors[randomIndex];
+        }
+        colorbutton.addEventListener("click", changeHeaderColor);
+         </script>
+</body>
+</html>
