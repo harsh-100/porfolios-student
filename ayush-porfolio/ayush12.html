@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"></link>
+</head>
+<body style="margin: 0px;">
+    <style>
+        body {
+          background-color:lightcoral ;
+        }
+        
+        h1 {
+          color:beige;
+          text-align: center;
+        }
+        
+        p {
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color: chocolate;
+          font-size: 30px
+        }
+        </style>
+        <header>
+
+        <h1 style="background-color: brown; font-size: xx-large; padding: 53px;">WELCOME TO MY PROFILE <br><button onclick="changeheadercolor">change color</button>
+
+          
+        
+        </h1>
+        <br>
+        <img id="check" src="C:\Users\LENOVO\Downloads\WhatsApp Image 2023-08-10 at 23.58.14.jpg" alt="Riya jain" width="300" height="300" class="center">
+        <h2 style="font-size: x-large;color: black;">ayush jangid
+        <p style="font-size: large; color: rgb(138, 26, 26);">My name is ayush jangid currently pursuing B.Tech in computer science with specialisation in data science.  
+            </p></h2>
+        <h3 style="font-size: x-large;color: black;">ABOUT ME
+        <p style="font-size: large;color: rgb(138, 26, 26);"> I am looking for the great opportunities that will not only build my resume but also develop skills that will make me able to learn many extra things.</p>
+       <p style="font-size: large;color: rgb(138, 26, 26);"> I am learning web development ans also have knowledge about C language . Also have good communication skills to be interactive in your department.</p>
+    </h3>  
+    <h4 style="font-size: x-large;color: black;">CONTACT 
+
+      <p style="font-size: large;color: rgb(138, 26, 26);"> You can contct me through my mail or phone number <br> ayushjangid094@gmail.com or ayush jangid</p>
+    </header>
+    <footer style="
+    padding: 30px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    margin-top: 500px;
+">@2023 ayush jangid All Rights Reserved</footer>
+<script>
+  colorbutton=document.getElementById("color button")
+  const header=document.querySelector("header")
+
+  header.style.backgroundColor = [red,green,blue]
+  function changeheadercolor (){
+    console.log("it is called")
+    console.log("randomIndex")
+    const randomIndex= Math.floor(Math.randon()*colors);
+  header.style.backgroundColor=colors[randomIndex];
+  }
+</script>
+
+    </body>
+</html>
