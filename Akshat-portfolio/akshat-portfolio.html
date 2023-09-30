@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Instrument+Serif&family=Merriweather:ital,wght@1,300&family=Poltawski+Nowy:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="akshat.css">
+    
+</head>
+<body>
+    <h1 class="heading">Welcome to My Profile!!</h1><hr>
+    <img class="profile-pic" src="profile_picture.jpg" alt=" my profile picture" title="Akshat Bari" width="220" height="250" id="changeColorButton">
+    <h2 class="name">Akshat Bari</h2>
+    <div>
+        <strong style="padding: 0px 20px;"><em>Front-End developer</em></strong><br>
+    <strong style="padding: 0px 20px;"><em>Python Programmer</em></strong>
+    <h3 class="sub-head">About Me</h3>
+    <div class="txt">
+        <span class="cont">Hi,I'm Akshat!I am a passionate <b>front-end developer</b> with a storng interest in creating interactive and user friendly websites.I love experimenting with new technologies and turning ideas into beautiful and <span>functional web applications.</span></span><br>
+    <span class="cont">
+        Along with front-end I also have the skills of <b>programming in python</b>.I love to create <b>GUIs</b> using python. 
+    </span>
+    </div>
+    <h3 class="sub-head"> Contact Information:</h3>
+    <span style="padding: 0px 20px;">Email:--<em>2022pietcsakshat009@poornima.org</em>
+    </span><br>
+    <span style="padding: 0px 20px;">Phone:--<em>9214798051</em></span><br>
+    <span style="padding: 0px 20px;">LinkedIn:--<a href="www.linkedin.com/in/akshat-bari-45531b256" target="_blank" style="color:cornflowerblue">www.linkedin.com/in/akshat-bari-45531b256</a></span>
+    
+    <h3 class="sub-head">Skills:</h3>
+    <ul style="list-style-type:circle; padding-left: 80px;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>Basic SQL</li>
+    </ul>
+    </div>
+    <footer class="foot">
+        <div>
+             <b>&copy;2023Akshat Bari.All rights are reserved!</b>
+        </div>
+    </footer>
+    <script>
+        document.getElementById("changeColorButton").addEventListener("click", function() {
+          var randomColor = getRandomColor();
+          document.body.style.backgroundColor = randomColor;
+        });
+    
+        function getRandomColor() {
+          var letters = "0123456789ABCDEF";
+          var color = "#";
+          for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+            if(color=="#000000"){
+                continue;
+            }
+          }
+          return color;
+        }
+      </script>
+</body>
+</html>
