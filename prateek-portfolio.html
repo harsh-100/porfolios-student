@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    img {
+      border-radius: 50%;
+    }
+    body, h1, h2{
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #696969;
+    }
+  
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin-left: 3rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+    .profile-details {
+      display: flex;
+      align-items: center;
+      gap: 0px;
+    }
+    .profile-content {
+      flex: 1;
+      background-color: wheat;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+      margin-right: 300px;
+      margin-left: 300px;
+      animation: grow-in 1s ease-in forwards;
+    }
+    @keyframes grow-in {
+      0% { transform: scale(0); }
+      50% { transform: scale(0.7); }
+      100% { transform: scale(1); }
+    }
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      width: 100%;
+    }
+    .profile-image {
+      border-radius: 50%;
+      margin-left: center;
+      margin-bottom: auto;  
+        display: block;
+        width: 50%;
+       width: 200px; 
+      height: 200px; 
+      opacity: 0;
+      animation: fade-in 4s ease-in-out forwards;
+    }
+    
+    @keyframes fade-in {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    h3, p, ul, li{
+      padding: 0;
+      margin: 0;
+      animation: move-in 5s ease-in-out forwards;
+    }
+    @keyframes move-in {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 40px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: red;
+      color: white;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 4px;
+    }
+    
+    #myBtn:hover {
+      background-color: #555;
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+    
+   
+  <title>Your profile</title>
+</head>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+    <div ></div>
+    <div style="background-color:lightgrey;padding:0px 0px 0px" >
+      <strong></strong></div>
+    
+    <script>
+      
+   
+    let mybutton = document.getElementById("myBtn");
+    
+ 
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    function changeBackgroundColor() {
+      const colors = ["lightblue", "lightgreen", "lightpink", "lightyellow", "red", "white", "grey", "brown"];
+      const profileContent = document.querySelector(".profile-content");
+      const currentColor = profileContent.style.backgroundColor;
+      const currentIndex = colors.indexOf(currentColor);
+  
+      const nextIndex = (currentIndex + 1) % colors.length;
+  
+      profileContent.style.backgroundColor = colors[nextIndex];
+    }
+
+  </script>
+ <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+  <button id="changeColorButton" onclick="changeBackgroundColor()">Change Color</button>
+
+  <main>
+    <div class="profile-details">
+      
+      <div class="profile-content">
+        <h1 style="color:rgb(190, 220, 20); text-align: center; background-color:#696969; padding:10px ;">Welcome to My Profile</h1>
+        <br>
+        <img class="profile-image" src="https://pbs.twimg.com/profile_images/1552549629643964419/QZjHk3Xm_400x400.jpg" height="200" width="200" >
+        <br>
+        <h3 style="color: blue;">PRATEEK KUMAR SINGH</h3>
+        <BR>
+        <p>WEB DEVELOPER - front end</p>
+        <br>
+        <p>Check out my amazing work and learn more about me!</p> 
+        <br>
+        <h4>Skills:</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <h4>Interests</h4>
+        <ul>
+          <li>Web Development</li>
+          <li>Entrepreneurship</li>
+          <li>Software Development</li>
+        </ul>
+        <h4>Hobbies</h4>
+        <ul>
+          <li>Coding</li>
+          <li>Gymnasium</li>
+          <li>Reading biography</li>
+          <li>E Sports</li>
+        </ul>
+        <h5>Age: 20 years</h5>
+        <h4>ABOUT:</h4>
+        <p>I'm a passionate web developer with a love for coding and creativity. With several years of experience, I've worked on a variety of projects, ranging from simple websites to complex web applications.</p>
+        <p>Feel free to explore my profile and get in touch if you're interested in collaborating or learning more about my work.</p>
+        <h4>Contact:</h4>
+        <a href="mailto:calledasprateek@gmail.com">calledasprateek@gmail.com</a>
+        <p><a href="tel:7000829346">7000829346</a></p>
+      </div>
+      
+    </div>
+  </main>
+    <footer>
+    <p>&copy; 2023 Prateek. All rights reserved.</p>
+  </footer>
+</body>
+</html>
