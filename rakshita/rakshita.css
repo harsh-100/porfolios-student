@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    
+    }
+    #flexbox1{
+        display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    }
+    html{
+        margin: 0px;
+    }
+    h1{
+        text-align: center;
+        
+        color:wheat;
+        padding: 5px;
+        margin-bottom: 0px;
+    }
+    h2{text-align: center;}
+    #header
+    {
+        background-color: rgb(61, 62, 66);
+        text-align: center;
+        padding: 5px;
+    }
+     
+    #profile{
+        border-radius: 100px;
+        height: 200px;
+        width: 200px;
+        animation-name: photo;
+        animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes photo{
+        0%{
+            width: 0px;
+            height: 0px;
+        }
+        25%{
+            width: 50px;
+            height: 50px;
+        }
+        50%{
+            width: 100px;
+            height:100px;
+        }
+        75%{
+            width: 150px;
+            height: 150px;
+        }
+        100%{
+            width: 0px;
+            height: 0px;
+        }
+    
+    
+    }
+    #introduction{
+        width: 50%;
+        height: 56vh;
+        text-align: center;
+        /* border: 2px solid black; */
+        margin-top: 0px;
+        background-color: bisque;
+    }
+    #about_me{
+        width: 50%;
+        height: 56vh;
+        /* text-align: center; */
+        /* border: 2px solid black;  */
+        margin-top: 0px;
+        background-color: beige;
+    }
+    #flexbox2{
+        display: flex;
+        flex-direction: row;
+    }
+    #Skills{
+        width: 50%;
+        height: 50vh;
+        background-color: beige;
+        padding: 4px 4px;
+        /* border: 2px solid black; */
+    }
+    #Research{
+        width: 50%;
+        height: 50vh;
+        padding: 4px 4px;
+        background-color: bisque;
+        /* border: 2px solid black; */
+    }
+    #Research:hover{
+    border: 2px solid black ;
+    }
+    #Skills:hover{
+        border: 2px solid black ;   
+    }
+    #about_me:hover{
+        border: 2px solid black;
+    }
+     
+    #introduction:hover{
+          border:2px solid black;
+    
+    }
+    #more{
+        margin: 5px;
+        background-color: rgb(69, 66, 66);
+        color: bisque;
+        border-radius: 5px;
+    }
+    #more:hover{
+        box-shadow: 2px 2px black;
+    }
